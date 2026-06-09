@@ -1,42 +1,52 @@
-# Library Management System
+# Library Management System Analysis using SQL
 
 ## Project Overview
-A Library Management System developed to manage books, members, borrowing, and return operations efficiently. The system helps automate library activities and improve record management.
 
-## Features
-- Add new books
-- Search books
-- Update book details
-- Delete books
-- Issue books to members
-- Return books
-- Manage member records
+This project analyzes a Library Management System database using SQL. The database contains information about books, members, employees, branches, issued books, and returned books.
 
-## Technologies Used
-- Java
-- MySQL
-- JDBC
-- Object-Oriented Programming (OOP)
+## Objectives
 
-## Modules
-1. Book Management
-2. Member Management
-3. Book Issue Management
-4. Book Return Management
-5. Database Operations
+* Manage library records
+* Analyze book issuance and returns
+* Track member activity
+* Generate business insights using SQL
 
-## Database
-The project uses MySQL for storing:
-- Book Information
-- Member Details
-- Issue Records
-- Return Records
+## Database Tables
 
-## Future Enhancements
-- User Authentication
-- Fine Calculation
-- GUI Interface
-- Report Generation
+* Books
+* Members
+* Employees
+* Branch
+* Issued Status
+* Return Status
+
+## SQL Concepts Used
+
+* SELECT Statements
+* INSERT, UPDATE, DELETE
+* INNER JOIN
+* LEFT JOIN
+* GROUP BY
+* HAVING
+* Aggregate Functions
+* CTAS (Create Table As Select)
+
+## Key Tasks Performed
+
+* Added new book records
+* Updated member information
+* Deleted issued book records
+* Retrieved books issued by employees
+* Identified active members
+* Created summary tables
+* Calculated rental income by category
+* Found books not yet returned
+* Analyzed employee and branch data
+
+## Tools Used
+
+* MySQL
 
 ## Author
+
 Sowjanya Vemula
